@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: base
+server:
+  port: '18887'
+  tomcat:
+    accesslog:
+      enabled: true
+    uri-encoding: UTF-8
+  servlet:
+    context-path: /base
+    session:
+      timeout: '10'
